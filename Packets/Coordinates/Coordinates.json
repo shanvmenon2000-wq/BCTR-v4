@@ -1,0 +1,25 @@
+{
+  "coordinates": [
+    {
+      "observed_input": "11",
+      "expected": "2",
+      "object": "1+1",
+      "debt_type": "mixed",
+      "packet_id": "P0001"
+    },
+    {
+      "observed_input": "3.14",
+      "expected": "ratio C/d plus tails",
+      "object": "pi",
+      "debt_type": "continuity",
+      "packet_id": "P0002"
+    },
+    {
+      "observed_input": "137",
+      "expected": "alpha inverse",
+      "object": "alpha",
+      "debt_type": "transformation",
+      "packet_id": "P0003"
+    }
+  ]
+}
