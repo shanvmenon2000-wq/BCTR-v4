@@ -1,0 +1,27 @@
+[
+  {
+    "label": "1",
+    "matrix_score": 10,
+    "closure_type": "terminal"
+  },
+  {
+    "label": "pi",
+    "matrix_score": 15.5,
+    "closure_type": "regenerative"
+  },
+  {
+    "label": "e",
+    "matrix_score": 14,
+    "closure_type": "fixed_point"
+  },
+  {
+    "label": "i",
+    "matrix_score": 13,
+    "closure_type": "cycle"
+  },
+  {
+    "label": "e^(i*pi)+1=0",
+    "matrix_score": 17,
+    "closure_type": "regenerative"
+  }
+]
