@@ -1,0 +1,13 @@
+{
+  "object_id": "O0001",
+  "label": "1",
+  "domain": "arithmetic",
+  "status": "stable",
+  "closure_type": "terminal",
+  "matrix_result": "stable",
+  "invariant": "identity/unit survives counting",
+  "minimal_form": "1",
+  "first_tail": "1+1=2",
+  "next_core": "O0002",
+  "notes": "Seed object"
+}
