@@ -1,0 +1,14 @@
+{
+  "packet_id": "P0001",
+  "target_tail": "1+1=2",
+  "debt_type": "mixed",
+  "steps": [
+    "Count 3 objects. Add 2. Count all. Say 3+2=5.",
+    "Remove objects. Ask 3+2 without counters.",
+    "Spell C-A-T. Write C, A, T. Say cat.",
+    "Fix 'thedogruns' with spaces.",
+    "Child writes a sentence with spaces."
+  ],
+  "retest": "3+2=? and spell dog",
+  "success_criteria": "do + explain + rebuild + return"
+}
