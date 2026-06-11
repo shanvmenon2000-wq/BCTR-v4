@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "1+1 produces 11 routes to P0001",
+      "request": { "object": "1+1", "observed_input": "11" },
+      "expected_packet_id": "P0001"
+    },
+    {
+      "name": "pi as 3.14 routes to continuity packet",
+      "request": { "object": "pi", "observed_input": "3.14" },
+      "expected_debt_type": "continuity"
+    }
+  ]
+}
