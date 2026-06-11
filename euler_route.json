@@ -1,0 +1,132 @@
+{
+  "objects": [
+    {
+      "object_id": "O_ONE_MINUS_ONE",
+      "label": "1 - 1 = 0",
+      "matrix": {
+        "definition": 1,
+        "entry_anchor": 1,
+        "invariant": 1,
+        "transformer": 0,
+        "canceler": 1,
+        "repetition": 0,
+        "measure": 0,
+        "minimal_form": 1,
+        "opposite": 1,
+        "hidden_ladder": 0,
+        "intuition_break": 0,
+        "debt_source": 0,
+        "first_tail": 0,
+        "reconstructable": 1,
+        "returnable": 1,
+        "teaches": 1,
+        "compresses": 0,
+        "infrastructure": 0
+      },
+      "closure_type": "terminal",
+      "tails": [
+        "negative_one",
+        "cancellation_return"
+      ],
+      "status": "seed_estimate"
+    },
+    {
+      "object_id": "O_EULER_IDENTITY",
+      "label": "e^(i*pi)+1=0",
+      "matrix": {
+        "definition": 1,
+        "entry_anchor": 1,
+        "invariant": 1,
+        "transformer": 1,
+        "canceler": 0.5,
+        "repetition": 1,
+        "measure": 1,
+        "minimal_form": 0.5,
+        "opposite": 1,
+        "hidden_ladder": 1,
+        "intuition_break": 1,
+        "debt_source": 1,
+        "first_tail": 1,
+        "reconstructable": 1,
+        "returnable": 0.5,
+        "teaches": 1,
+        "compresses": 1,
+        "infrastructure": 1
+      },
+      "closure_type": "regenerative",
+      "tails": [
+        "e",
+        "i",
+        "pi",
+        "unit_circle",
+        "rotation",
+        "complex_plane",
+        "cancellation"
+      ],
+      "tail_weights": {
+        "e": 10,
+        "i": 10,
+        "pi": 12,
+        "unit_circle": 9,
+        "rotation": 10,
+        "complex_plane": 10,
+        "cancellation": 4
+      },
+      "status": "seed_estimate"
+    }
+  ],
+  "learner_states": [
+    {
+      "agent_id": "A_DEMO",
+      "object_id": "O_EULER_IDENTITY",
+      "required_crossings": 7,
+      "paid_crossings": 3,
+      "unpaid_crossing_weights": [
+        12,
+        10,
+        10,
+        9
+      ],
+      "return_evidence": false
+    }
+  ],
+  "packets": [
+    {
+      "packet_id": "P_UNIT_CIRCLE_HALF_TURN",
+      "label": "Unit Circle Half-Turn Bridge",
+      "debt_type": "continuity",
+      "crossings_paid": [
+        "pi_as_half_turn",
+        "cos_pi_negative_one",
+        "sin_pi_zero"
+      ],
+      "crossing_weights": [
+        12,
+        8,
+        8
+      ],
+      "status": "draft"
+    }
+  ],
+  "rungs": [
+    {
+      "rung_id": "R_EULER_001",
+      "from_object": "1 - 1 = 0",
+      "to_object": "e^(i*pi)+1=0",
+      "i4_anchor_values": [
+        9
+      ],
+      "new_i0_object_weights": [
+        10,
+        10,
+        12,
+        10,
+        10
+      ],
+      "selected_packet_capacities": [
+        28
+      ],
+      "has_return_test": true
+    }
+  ]
+}

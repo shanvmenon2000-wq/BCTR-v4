@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "BCTR v4 Scoring Engine Route",
+  "type": "object",
+  "properties": {
+    "objects": {
+      "type": "array"
+    },
+    "learner_states": {
+      "type": "array"
+    },
+    "packets": {
+      "type": "array"
+    },
+    "rungs": {
+      "type": "array"
+    }
+  },
+  "required": [
+    "objects"
+  ]
+}

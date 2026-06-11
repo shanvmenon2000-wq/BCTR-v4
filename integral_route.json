@@ -1,0 +1,128 @@
+{
+  "objects": [
+    {
+      "object_id": "O_ONE_PLUS_ONE",
+      "label": "1 + 1 = 2",
+      "matrix": {
+        "definition": 1,
+        "entry_anchor": 1,
+        "invariant": 1,
+        "transformer": 0,
+        "canceler": 0,
+        "repetition": 0,
+        "measure": 0,
+        "minimal_form": 1,
+        "opposite": 0,
+        "hidden_ladder": 0,
+        "intuition_break": 0,
+        "debt_source": 0,
+        "first_tail": 0,
+        "reconstructable": 1,
+        "returnable": 1,
+        "teaches": 1,
+        "compresses": 0,
+        "infrastructure": 1
+      },
+      "closure_type": "terminal",
+      "tails": [
+        "1^2 + 1^2 = 2"
+      ],
+      "status": "seed_estimate"
+    },
+    {
+      "object_id": "O_CIRCLE_AREA_DERIVATIVE",
+      "label": "d/dr(pi*r^2)=2*pi*r",
+      "matrix": {
+        "definition": 1,
+        "entry_anchor": 1,
+        "invariant": 1,
+        "transformer": 1,
+        "canceler": 1,
+        "repetition": 1,
+        "measure": 1,
+        "minimal_form": 0.5,
+        "opposite": 0.5,
+        "hidden_ladder": 1,
+        "intuition_break": 1,
+        "debt_source": 1,
+        "first_tail": 1,
+        "reconstructable": 1,
+        "returnable": 0.5,
+        "teaches": 1,
+        "compresses": 1,
+        "infrastructure": 1
+      },
+      "closure_type": "regenerative",
+      "tails": [
+        "radius",
+        "pi",
+        "area",
+        "circumference",
+        "derivative",
+        "reverse_traversal"
+      ],
+      "tail_weights": {
+        "radius": 8,
+        "pi": 12,
+        "area": 8,
+        "circumference": 8,
+        "derivative": 12,
+        "reverse_traversal": 10
+      },
+      "status": "seed_estimate"
+    }
+  ],
+  "learner_states": [
+    {
+      "agent_id": "A_DEMO",
+      "object_id": "O_CIRCLE_AREA_DERIVATIVE",
+      "required_crossings": 6,
+      "paid_crossings": 4,
+      "unpaid_crossing_weights": [
+        12,
+        10
+      ],
+      "return_evidence": true
+    }
+  ],
+  "packets": [
+    {
+      "packet_id": "P_AREA_TO_CIRCUMFERENCE_WALKBACK",
+      "label": "Area to Circumference Walkback",
+      "debt_type": "reconstruction",
+      "crossings_paid": [
+        "area",
+        "derivative",
+        "circumference",
+        "radius_return"
+      ],
+      "crossing_weights": [
+        8,
+        12,
+        8,
+        8
+      ],
+      "status": "draft"
+    }
+  ],
+  "rungs": [
+    {
+      "rung_id": "R_INTEGRAL_001",
+      "from_object": "1 + 1 = 2",
+      "to_object": "d/dr(pi*r^2)=2*pi*r",
+      "i4_anchor_values": [
+        8
+      ],
+      "new_i0_object_weights": [
+        12,
+        8,
+        8,
+        12
+      ],
+      "selected_packet_capacities": [
+        36
+      ],
+      "has_return_test": true
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+rung_id,family,from_object,to_object,i4_anchor,new_i0_objects,bridge_needed
+R_E1,1-1_to_Euler,1-1=0,-1+1=0,"0,1",-1,opposite bridge
+R_E2,1-1_to_Euler,-1+1=0,cos(pi)=-1,-1,"cos,pi,half-turn",unit circle bridge
+R_E3,1-1_to_Euler,cos(pi)=-1,cos(pi)+i*sin(pi)=-1+0i,"cos(pi),-1","i,sin,complex component",complex plane bridge
+R_I1,1+1_to_Integrals,1+1=2,1^2+1^2=2,"1,+,2",square,square magnitude bridge
+R_I2,1+1_to_Integrals,1^2+1^2=2,x^2+y^2=r^2,"square,+","x,y,r,coordinate,radius",coordinate radius bridge
+R_I3,1+1_to_Integrals,x^2+y^2=r^2,d/dr(pi*r^2)=2*pi*r,"r,pi","derivative,area,circumference",walkback derivative bridge
