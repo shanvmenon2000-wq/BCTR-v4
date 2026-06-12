@@ -54,3 +54,24 @@ Any change to the invariant requires incrementing the major version (v5). The in
     }
   }
 }
+Verdict Semantics
+
+STABLE
+Crossing occurred.
+
+MONITOR
+Uncertainty is located in the learner.
+Observe before intervention.
+
+BREAK
+Uncertainty is located in the ladder.
+Insert or modify bridge packets.
+
+DISCOVERY
+Uncertainty is located in the map.
+Repeated bridge interventions fail to produce stable crossings,
+suggesting the protocol lacks a reliable crossing route.
+STABLE     = no active uncertainty
+MONITOR    = learner uncertainty
+BREAK      = ladder uncertainty
+DISCOVERY  = map uncertainty
