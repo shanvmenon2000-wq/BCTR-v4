@@ -1,0 +1,28 @@
+BCTR Vocabulary Sheet
+
+Term	Canonical Definition
+Coordinate	Location of failure or uncertainty
+Debt	A missing crossing preventing progress
+Entry Debt	No stable starting point
+Continuity Debt	Cannot connect to prior knowledge
+Transformation Debt	Cannot change representations
+Reconstruction Debt	Cannot rebuild from anchors
+Return Debt	Cannot reliably revisit later
+Bridge Packet	Intervention designed to pay a debt
+Crossing	Stable independent performance, explanation, and return
+Pressure	Cognitive load associated with a rung
+Rung	A stable learning state
+Monitor	Learner uncertainty
+Break	Ladder uncertainty
+Discovery	Map uncertainty
+Stable	Crossing achieved and validated
+
+Notes
+
+These definitions are canonical within the BCTR Protocol.
+
+All implementations, schemas, databases, examples, diagnostics, and documentation should use these definitions consistently.
+
+When conflicts arise between representations, the canonical definition takes precedence.
+
+The purpose of this sheet is to prevent semantic drift and ensure that protocol objects remain stable across implementations and over time.
